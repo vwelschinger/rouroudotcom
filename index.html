@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -18,7 +19,6 @@
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 		<header class="menu">
 			<h1>Bienvenue sur Rourou.com</h1> 
-
 					<img src="images/photopigeon.jpg" class="pigeonlogo">
 			<nav>
 				<ul>
@@ -29,14 +29,20 @@
 					<li><a href="#contact">Contact</a></li>	
 				</ul>
 
+			</nav>
 					<a href="http//:www.facebook.com/rouroudotcom"><img src="images/facebook.png" class="socialnetwork"></a>
 					<a href="http//:www.twitter.com/rouroudotcom"><img src="images/twitter.png" class="socialnetwork" ></a>
 					<a href="http//:www.instagram.com/rouroudotcom"><img src="images/instagram.jpg" class="socialnetwork" ></a>
 					<a href="http//:www.pinterest.com/rouroudotcom"><img src="images/pinterest.jpg" class="socialnetwork" ></a>
 
-			</nav>
 		</header>
 
+
+
+
+		<div class="content"> <!-- Begin content -->
+			
+		
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
@@ -44,15 +50,13 @@
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 
-
-		<section>
-
+		<section class="mainpart">
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 		<!-- PART PRESENTATION -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 
-		<div class="presentation" id="part">	
+		<div  id="presentation" class="part">	
 			<h2>Vous aimez vous faire plumer ?</h2>	
 					<p>Venez découvrir des produits et services avec plusieurs caracthéristiques</p>
 				<ul>
@@ -66,9 +70,8 @@
 		<!-- PART PRODUITS -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 
-		<div class="product" id="part"> 
+		<div id="product" class="part"> 
 			<h2>Le casque Beats by Dre</h2>
-			<div>
 			<img src="images/beats.jpg">
 					<p>Ah ce bon vieux Docteur Dre</p>
 					<p>Le bougre aime bien l'argent, enfin comme tout le Monde je pense.</p>
@@ -86,7 +89,7 @@
 		<!-- PART SERVICES -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 
-		<div class="service" id="part">
+		<div id="service" class="part">
 			<h2>La Première dans un train TER</h2>
 				<img src="images/ter.jpg">
 					<p>Ah la première classe dans les trains, qu'est-ce donc selon vous? Symbole de réussite sociale, avoir l'opportunité d'exposer votre fierté d'actif accompli dans son travail et dans sa vie en pavillon de banlieue d'une petite ville de province.</p>
@@ -104,23 +107,41 @@
 
 
 
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+		<!-- PART WHO/CONTACT -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+
+	
+	<section class="secondpart">
+
+
+
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 		<!-- PART QUI SOMMES-NOUS? -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 
-		<div class="who" id="part">
+		<div id="who" class="part">
 			<h2>Mais qui ? </h2>
 					<p>Tu verras bien</p>
 					<p>Pour patienter voici une photo de Homard</p>
 					<p>Bisous</p>
-				<img src="images/lobster.jpg">
+				<!--
+					<div class="redlobster" <img src="images/lobster.jpg">> 
+					<div class="bluelobster" <img src="images/lobster2.jpg">> </div>
+					</div>
+				-->	
+				<img src="images/lobster.jpg" class="redlobster" >
+				<img src="images/lobster3.jpg" class="bluelobster" >
 		</div>
 
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 		<!-- PART CONTACT -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
-		<div class="contact" id="part">
+		<div id="contact" class="part">
 			<h2>Pour nous contacter</h2>
 				<a href="http://www.vertu.com/fr/fr/home" target="_blank">Clique ici, pour un nouveau produit funky</a>
 
@@ -128,8 +149,13 @@
 		</div>
 
 
+	</section> <!-- end part who/contact -->
+
+	</div> <!-- end content  -->
+
+
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
-		<!-- PARTIE FOOTER -->
+		<!-- PART FOOTER -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 
 		<footer>
@@ -140,7 +166,9 @@
 
 </html>
 
-<!-- end of file -->
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+								<!-- end of file -->
 
 <!--
 Grouper ses divs

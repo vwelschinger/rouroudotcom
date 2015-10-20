@@ -11,12 +11,15 @@
 header, footer {
 	color: white ;
 	background-color: #6E020C ; 
-	font-family: Open+sans, sans-serif; 	
+	font-family: Roboto+Condensed, Open+sans, sans-serif; 	
 }
 
 header {
 	position: fixed;
 	margin-top: -20px;
+	width: 100%;
+	padding: 10px;
+	height: 25%;
 	width: 100%;
 }
 
@@ -24,7 +27,6 @@ footer {
 	text-align: center;
 
 }
-
 
 .mention {
 	color: white;
@@ -35,11 +37,11 @@ footer {
 /* ------------------------------------------------------------------------ */
 
 body {
-	font-family: Open+sans, sans-serif;
+	font-family: Roboto+Condensed, Open+sans, sans-serif;
 }
 
 section {
-	margin-top: -20px;
+	text-align: center;
 }
 
 
@@ -84,7 +86,7 @@ h1 {
 
 h2 {
 	font-family: Lobster, sans-serif;
-	color: #6E020C;
+	color: white;
 }
 
 
@@ -95,9 +97,14 @@ h2 {
 a {
 	text-decoration: none;
 }
+
+a:hover {
+	font-style: bold;
+}
+
 p {
-	font-family: Open+sans, sans-serif;
-	color: #303030 ; 
+	font-family: Roboto+Condensed, Open+sans, sans-serif;
+	color: white ; 
 }
 
 
@@ -121,6 +128,7 @@ nav ul {
 
 nav li {
 	display: inline;
+	margin-right: 7%;
 }
 
 
@@ -133,45 +141,92 @@ div {
 }
 
 
-
 /* ------------------------------------------------------------------------ */
-/* ID PART */
+/* CLASS PART */
 /* ------------------------------------------------------------------------ */
 
-#part {
+.content {
+}
+
+.part {
 	height: auto;
- 	width: 500px;
- 	border-radius: 3%;
- 	border-color: #6E020C;
+ 	border-color: white;
  	border-width: 5px;
  	border-style: solid;
  	padding: 5px;
 }
 
+.mainpart {
+	padding-top: 300px;
+}
+
+.secondpart {
+
+}
+
+
+.redlobster {
+  display: none;
+  background: images/lobster.jpg;
+  opacity: 0.8;
+  height: 100;
+}
+.bluelobster {
+  background: images/lobster3.jpg;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+
+.redlobster:hover .bluelobster {
+	display: block;
+}
 
 /* ------------------------------------------------------------------------ */
-/* CLASS PART */
+/* ID PART */
 /* ------------------------------------------------------------------------ */
 
-.presentation {
+#presentation {
+	background-color: #2D0105;
 
 }
 
-.prodcut {
-
+#product {
+	background-color: #0D80BA;
+	float: left;
+	width: 35%;
 }
 
-.service {
-
+#service {
+	float: right;
+	width: 55%;
 }
 
-.who {
-
+#who {
+	float left;
 }
 
-.contact {
-
+#contact {
+	float right;
 }
+
+
+
+
+/* ------------------------------------------------------------------------ */
+								/* END OF FILE */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,80 @@
+
+/* Start the cascade */
+/* ------------------------------------------------------------------------ */
+
+
+
+/* ------------------------------------------------------------------------ */
+/* HEADER & FOOTER */
+
+.headerandfooter {
+	color: white ;
+	background-color: #6E020C ;
+	text-align: center; 
+	font-family: Open+sans, sans-serif; 	
+}
+
+.mention {
+	color: white;
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* TITTLE STYLE */
+
+h2 {
+	font-family: Lobster, sans-serif;
+	color: #6E020C;
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* LINKS AND TEXT */
+
+a {
+	text-decoration: none;
+}
+p {
+	font-family: Open+sans, sans-serif;
+	color: #303030 ; 
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* ID PARTS */
+
+#part {
+ 	height: 500px;
+ 	width: 500px;
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* IMAGES & BLOCKS */
+img {
+	border-radius: 50%; 
+}
+
+.logopigeon {
+	height: 500px;
+	width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

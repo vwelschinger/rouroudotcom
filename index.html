@@ -5,48 +5,56 @@
 <head>
 	<title>rourou.com</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 
-
 <body>
+		
+		<!-- PARTIE MENU -->
+		<header class="menu headerandfooter">
+			<h1>Bienvenue sur Rourou.com</h1> 
 
-
-	<h1>Bienvenue sur Rourou.com</h1> 
-
-		<img src="images/photopigeon.jpg" >
-
-		<ul class="menu">
-			<li>L'oeil de la semaine</li>
-			<li>Produits</li>
-			<li>Services</li>
-			<li>Qui est le pigeon?</li>
-			<li><a href="mailto:rouroudotcom@yahoo.fr">Contact</a></li>
-
-
+					<img src="images/photopigeon.jpg" class="pigeonlogo">
+			<nav>
+				<ul>
+					<li><a href="#presentation">Présentation</a></li>
+					<li><a href="#product">Produits</a></li>
+					<li><a href="#service">Services</a></li>
+					<li><a href="#who">Qui est le pigeon?</a></li>
+					<li><a href="#contact">Contact</a></li>	
 				</ul>
-			<h2>Vous aimez vous faire plumer ?</h2>	
+			</nav>
+		</header>
 
-			<ul>Venez découvrir des produits et services avec plusieurs caracthéristiques
-				<li>Onéreux</li>
-				<li>A la qualité incertaine ...</li>
-				<li>...mais rencontrant un succès certain</li>
-			</ul>
+
+		<!-- PARTIE PRESENTATION -->
+		<div class="presentation" id="part">	
+			<h2>Vous aimez vous faire plumer ?</h2>	
+					<p>Venez découvrir des produits et services avec plusieurs caracthéristiques</p>
+				<ul>
+					<li>Onéreux</li>
+					<li>A la qualité incertaine ...</li>
+					<li>...mais rencontrant un succès certain</li>
+				</ul>
+		</div>		
 
 
 		<!-- PARTIE PRODUITS -->
 		<div class="product" id="part"> 
 			<h2>Le casque Beats by Dre</h2>
-			<img src="images/beats.jpg" height="20%" width="20%">
+			<img src="images/beats.jpg">
 
-				<p>Ah ce bon vieux Docteur Dre</p>
-				<p>Le bougre aime bien l'argent, enfin comme tout le Monde je pense.</p>
-				<p>Comment se faire de l'argent quand on est une star du rap mondial ?
-			Faire un nouvel album ? Hum bien trop long et fastidieux voyons !</p>
-				<p>Allons y plutôt pour un casque, branché, de qualité (cf la photo)</p>
-				<p>Et comme on veut de l'argent rapidement, bah on le faire super cher, allez là</p>
-				<p>Prix Public : 424€</p>
-				<p>Si tu veux quand-même l'acheter</p>
-				<a href="http://www.amazon.fr/Beats-Dr-Dre-Casque-Auriculaires/dp/B00GTNMA64/ref=sr_1_2?s=electronics&ie=UTF8&qid=1445267136&sr=1-2&keywords=beats+pro">ici mon pigeon</a>
+					<p>Ah ce bon vieux Docteur Dre</p>
+					<p>Le bougre aime bien l'argent, enfin comme tout le Monde je pense.</p>
+					<p>Comment se faire de l'argent quand on est une star du rap mondial ?
+					Faire un nouvel album ? Hum bien trop long et fastidieux voyons !</p>
+					<p>Allons y plutôt pour un casque, branché, de qualité (cf la photo)</p>
+					<p>Et comme on veut de l'argent rapidement, bah on le faire super cher, allez là</p>
+					<p>Prix Public : 424€</p>
+					<p>Si tu veux quand-même l'acheter</p>
+				<a href="http://www.amazon.fr/Beats-Dr-Dre-Casque-Auriculaires/dp/B00GTNMA64/ref=sr_1_2?s=electronics&ie=UTF8&qid=1445267136&sr=1-2&keywords=beats+pro" target="_blank">ici mon pigeon</a>
 		</div> 
 
 
@@ -54,22 +62,22 @@
 		<!-- PARTIE SERVICES -->
 		<div class="service" id="part">
 			<h2>La Première dans un train TER</h2>
-			<img src="images/ter.jpg">
-				<p>Ah la première classe dans les trains, qu'est-ce donc selon vous? Symbole de réussite sociale, avoir l'opportunité d'exposer votre fierté d'actif accompli dans son travail et dans sa vie en pavillon de banlieue d'une petite ville de province.</p>
-				<p>Bon dans les TGV on peut encore comprendre, les sièges y sont un peu moins inconfortables et vous aurez une prise (qui pourra même se donner la peine de fournir du courant quelques fois</p>
-				<p> Mais avez-vous déjà pris la première classe dans un train TER ? Vous savez les petits trams à peine améliorés</p>
-				<p>Pour à peine 50% du prix en plus, vous pourrez profiter, attention, de rideaux d'une autre couleur, un tantinet moins dégueulasse, quelle aubaine </p>
-				<p>Vous aurez même droit d'être prêts des machines, afin de bercer votre fabuleux trajet Montluçon-Limoges, fantastique !</p>
-				<p> Vous pouvez bien-sûr acheter ce fabuleux voyage sur un site splendide, épuré, design</p>
-				<a href="http//:www.voyages-sncf.com">Allez mon pigeon</a>
+				<img src="images/ter.jpg">
+					<p>Ah la première classe dans les trains, qu'est-ce donc selon vous? Symbole de réussite sociale, avoir l'opportunité d'exposer votre fierté d'actif accompli dans son travail et dans sa vie en pavillon de banlieue d'une petite ville de province.</p>
+					<p>Bon dans les TGV on peut encore comprendre, les sièges y sont un peu moins inconfortables et vous aurez une prise (qui pourra même se donner la peine de fournir du courant quelques fois</p>
+					<p> Mais avez-vous déjà pris la première classe dans un train TER ? Vous savez les petits trams à peine améliorés</p>
+					<p>Pour à peine 50% du prix en plus, vous pourrez profiter, attention, de rideaux ou de sièges d'une autre couleur, un tantinet moins dégueulasse, quel petit veinard </p>
+					<p>Vous aurez même droit d'être prêts des machines, afin de bercer votre fabuleux trajet Montluçon-Limoges, fantastique !</p>
+					<p> Vous pouvez bien-sûr acheter ce fabuleux voyage sur un site splendide, épuré, design</p>
+				<a href="http//:www.voyages-sncf.com" target="_blank">Allez mon pigeon</a>
 		</div>
 
 		<!-- PARTIE QUI SOMMES-NOUS? -->
-		<div class="who" id="part" >
+		<div class="who" id="part">
 			<h2>Mais qui ? </h2>
-				<p>Tu verras bien</p>
-				<p>Pour patienter voici une photo de Homard</p>
-				<p>Bisous</p>
+					<p>Tu verras bien</p>
+					<p>Pour patienter voici une photo de Homard</p>
+					<p>Bisous</p>
 				<img src="images/lobster.jpg">
 		</div>
 
@@ -77,17 +85,23 @@
 		<!-- PARTIE CONTACT -->
 		<div class="contact" id="part">
 			<h2>Pour nous contacter</h2>
-				<a href="http://www.vertu.com/fr/fr/home">Clique ici, pour un nouveau produit funky</a>
+				<a href="http://www.vertu.com/fr/fr/home" target="_blank">Clique ici, pour un nouveau produit funky</a>
 
 				<a href="mailto:rouroudotcom@yahoo.fr" id="email">Ou ici pour faire galérer ton Thunderbird</a>
-
-
 		</div>
+
+
+
+		<!-- PARTIE FOOTER -->
+		<footer class="headerandfooter">
+			<p class="mention">Copyright Rourou.com</p>
+		</footer>
 	
 </body>
 
 </html>
 
+<!-- end of file -->
 
 
 
@@ -106,4 +120,3 @@ ol non ordonné
 
 -->	
 
-<!-- end of file -->

@@ -18,14 +18,12 @@ header {
 	position: fixed;
 	margin-top: -20px;
 	width: 100%;
-	padding: 10px;
-	height: 25%;
-	width: 100%;
+	padding: 1%;
+	height: 30%;
 }
 
 footer {
 	text-align: center;
-
 }
 
 .mention {
@@ -41,7 +39,7 @@ body {
 }
 
 section {
-	text-align: center;
+
 }
 
 
@@ -52,22 +50,26 @@ section {
 
 img {
 	border-radius: 50%;
-	height: 350px;
-	width: auto; 
+	height: 10%;
+	width: auto;
 }
 
 div img {
 	border-radius: 50%;
+	height: 10%;
 }
 
 .pigeonlogo {
 	height: 200px;
 	width: auto;
-	float: left;
+	margin-top: -1%;
+	border: solid white 5px;
+
 }
 
 .socialnetwork {
-	height: 30px;
+	border-radius: 0%;
+	height: 70px;
 	width: auto;
 	float: right;
 }
@@ -81,12 +83,14 @@ div img {
 h1 {
 	font-family: Lobster, sans-serif;
 	text-align: center;
+	font-size: 200%;
 }
 
 
 h2 {
 	font-family: Lobster, sans-serif;
 	color: white;
+	font-size: 150%;
 }
 
 
@@ -94,8 +98,9 @@ h2 {
 /* LINKS AND TEXT */
 /* ------------------------------------------------------------------------ */
 
-a {
+.part a {
 	text-decoration: none;
+	font-size: 150%;
 }
 
 a:hover {
@@ -105,6 +110,7 @@ a:hover {
 p {
 	font-family: Roboto+Condensed, Open+sans, sans-serif;
 	color: white ; 
+	font-size: 150%;
 }
 
 
@@ -114,11 +120,13 @@ p {
 
 nav {
 	margin-left: 10px;
+	text-align: center;
 }
 
 
 nav a {
 	color: white;
+	text-decoration: none;
 }
 
 nav ul {
@@ -140,6 +148,41 @@ div {
 	
 }
 
+/* ------------------------------------------------------------------------ */
+/* ID PART */
+/* ------------------------------------------------------------------------ */
+
+#presentation {
+	background-color: #2D0105;
+	width: 45%
+
+}
+
+#product {
+	background-color: #0D80BA;
+	float: left;
+	width: 55%;
+}
+
+#service {
+	background-color: #07293B;
+	float: right;
+	width: 45%;
+}
+
+#who {
+	float left;
+	background-color: #2D0105;
+	width: 55%;
+}
+
+#contact {
+	float: right;
+	background-color: #7B770F;
+	width: 45%;
+}
+
+
 
 /* ------------------------------------------------------------------------ */
 /* CLASS PART */
@@ -151,17 +194,29 @@ div {
 .part {
 	height: auto;
  	border-color: white;
- 	border-width: 5px;
+ 	border-width: 0px;
  	border-style: solid;
- 	padding: 5px;
+ 	padding: 1%;
 }
 
 .mainpart {
-	padding-top: 300px;
+
+	padding-top: 12%;
 }
 
 .secondpart {
 
+}
+
+.part li {
+	color: white;
+}
+
+.community {
+	float: right;
+	height: auto;
+	width: 55%;
+	background-color: purple ;
 }
 
 
@@ -171,43 +226,39 @@ div {
   opacity: 0.8;
   height: 100;
 }
+
 .bluelobster {
   background: images/lobster3.jpg;
   height: 200px;
   width: 200px;
   margin: auto;
-
-.redlobster:hover .bluelobster {
-	display: block;
 }
 
 /* ------------------------------------------------------------------------ */
-/* ID PART */
+/* RESPONSIVE PART */
 /* ------------------------------------------------------------------------ */
 
-#presentation {
-	background-color: #2D0105;
-
+@media (max-width:320px) {  /*small mobile*/
+		.part {
+    		width: 100%;
+    		float: none;
+  }
 }
 
-#product {
-	background-color: #0D80BA;
-	float: left;
-	width: 35%;
+@media (min-width:321px) and (max-width:959px) {  /*tablet*/
+		.part {
+    		width: 100%;
+    		float: none;
+	}
 }
+@media (min-width:960px) and (max-width:1599px) {  /*desktop*/
 
-#service {
-	float: right;
-	width: 55%;
-}
 
-#who {
-	float left;
-}
 
-#contact {
-	float right;
 }
+@media (min-width:1600px) {  /*desktop and tv*/
+  h4 {
+
 
 
 
@@ -215,6 +266,7 @@ div {
 /* ------------------------------------------------------------------------ */
 								/* END OF FILE */
 
+																/*by Victor W.*/
 
 
 

@@ -178,7 +178,7 @@ nav li {
 
 
 .navbar-default {
-    background-color: #6E020C;
+    background-color: black;
     border-color: transparent;
     width: 100%;
     height: auto;
@@ -240,7 +240,7 @@ div {
 }
 
 #contact {
-	background-color: #3821BA;
+	background-color: #0D80BA;
 	/*float: right;
 	width: 45%;*/
 }

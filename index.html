@@ -38,12 +38,42 @@
 </head>
 
 <body>
+
+
+
+
+
 		
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 		<!-- PARTIE MENU -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 		
-<!-- 		<div class="contener">  BEG CONTENER 1
+		<div class="contener">  BEG CONTENER 1
+
+		<header class="menu">
+			<h1 class="maintittle">Bienvenue sur Rourou.com</h1> 
+					
+			<nav>
+					<!-- <ul>
+						<li><a href="#presentation"><button type="button" class="btn btn-primary btn-lg">Présentation</button></a></li>
+						<li><a href="#product"><button type="button" class="btn btn-primary btn-lg">Produits</button></a></li>
+						<li><a href="#service"><button type="button" class="btn btn-primary btn-lg">Services</button></a></li>
+						<li><a href="#who"><button type="button" class="btn btn-primary btn-lg">Mais Qui Donc?</button></a></li>
+						<li><a href="#contact"><button type="button" class="btn btn-primary btn-lg">Contact</button></a></li>	
+					</ul> -->
+
+					<!-- Button trigger modal -->
+				
+					<button type="button" class="btn btn-primary btn-lg mainbutton" data-toggle="modal" data-target="#myModal1"><img src="images/photopigeon.jpg" class="pigeonlogo img-responsive center-block">
+					</button>
+				
+			</nav>
+					
+
+		</header>
+
+
+
  -->		
 
  		<!-- BEG NAVBAR BOOTSTRAT -->
@@ -85,26 +115,10 @@
 		<!-- END NAVBAR BOOTSTRAT -->
 
 
-		<header class="menu">
-			<h1 class="maintittle">Bienvenue sur Rourou.com</h1> 
-					
-			<nav>
-					<ul>
-						<li><a href="#presentation"><button type="button" class="btn btn-primary btn-lg">Présentation</button></a></li>
-						<li><a href="#product"><button type="button" class="btn btn-primary btn-lg">Produits</button></a></li>
-						<li><a href="#service"><button type="button" class="btn btn-primary btn-lg">Services</button></a></li>
-						<li><a href="#who"><button type="button" class="btn btn-primary btn-lg">Mais Qui Donc?</button></a></li>
-						<li><a href="#contact"><button type="button" class="btn btn-primary btn-lg">Contact</button></a></li>	
-					</ul>
-					<img src="images/photopigeon.jpg" class="pigeonlogo img-responsive center-block">
-
-			</nav>
-					
-
-		</header>
+	
 
 
-<!-- 		</div> END CONTENER 1
+				</div> END CONTENER 1
  -->
 		<div class="container-fluid"> <!-- BEG CONTENER 2 -->
 			
@@ -153,10 +167,16 @@
 
 
 			<div class="row"> <!-- BEG ROW 2 -->
-				<div class="col-md-7 no-padding"> <!-- BEG R2 C1 -->
+
+
+				<div class="col-md-3 no-padding"> <!-- BEG R2 C1 -->
+					<img src="images/test.jpg">
+				</div>	
+
+				<div class="col-md-6 no-padding"> <!-- BEG R2 C2 -->
 					<div id="product" class="part"> 
 						<h2>Le casque Beats by Dre</h2>
-							<img src="images/beats.jpg">
+							
 								<p>Ah ce bon vieux Docteur Dre</p>
 								<p>Le bougre aime bien l'argent, enfin comme tout le Monde je pense.</p>
 								<p>Comment se faire de l'argent quand on est une star du rap mondial ?
@@ -169,8 +189,12 @@
 
 					</div>
 				</div> <!-- END R2 C1 -->
+
+				<div class="col-md-3 no-padding"> 	<!-- BEG R2 C3 -->
+					<img src="images/lobster.jpg">
+				</div>								<!-- END R2 C3 -->
 	
-			
+			</div> <!-- END ROW 2 -->
 
 
 
@@ -178,11 +202,12 @@
 		<!-- PART SERVICES -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 
-		<div class="col-md-5 no-padding"> <!-- BEG R2 C2 -->
+		<div class="row"> 					<!-- BEG ROW 3 -->
 
-		<div id="service" class="part">
-			<h2>La Première dans un train TER</h2>
-				<img src="images/ter.jpg">
+		<div class="col-md-6 no-padding"> 	<!-- BEG R3 C1 -->
+
+			<div id="service" class="part">
+				<h2>La Première dans un train TER</h2>
 					<p>Ah la première classe dans les trains, qu'est-ce donc selon vous? Symbole de réussite sociale, avoir l'opportunité d'exposer votre fierté d'actif accompli dans son travail et dans sa vie en pavillon de banlieue d'une petite ville de province.</p>
 					<p>Bon dans les TGV on peut encore comprendre, les sièges y sont un peu moins inconfortables et vous aurez une prise (qui pourra même se donner la peine de fournir du courant quelques fois</p>
 					<p> Mais avez-vous déjà pris la première classe dans un train TER ? Vous savez les petits trams à peine améliorés</p>
@@ -190,13 +215,18 @@
 					<p>Vous aurez même droit d'être prêts des machines, afin de bercer votre fabuleux trajet Montluçon-Limoges, fantastique !</p>
 					<p> Vous pouvez bien-sûr acheter ce fabuleux voyage sur un site splendide, épuré, design</p>
 				<a href="http//:www.voyages-sncf.com" target="_blank">Allez mon pigeon</a>
-		</div>
+			</div>
+		</div>				<!-- END R3 C1 -->
 
 
-			</div> <!-- END ROW 2 -->
+		<div class="col-md-3 no-padding"> 	<!-- BEG R3 C2 -->
+					<img src="images/ter.jpg">
+		</div>								<!-- END R3 C2 -->
 
+			
 
-		</section> <!-- END OF Pres/Prod/Services -->
+		
+
 
 
 
@@ -207,48 +237,41 @@
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 
-	
-		<section class="secondpart">
 
-		<div class="row"> <!-- BEG ROW 3 -->
+		
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 		<!-- PART QUI SOMMES-NOUS? -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 
-		<div class="col-md-9 no-padding"> <!-- BEG R3 C1 -->
-	
-			<div id="who" class="part">
-				<h2>Mais qui ? </h2>
-						<p>Tu verras bien</p>
-						<p>Pour patienter voici une photo de Homard</p>
-						<p>Bisous</p>
-					<!--
-						<div class="redlobster" <img src="images/lobster.jpg">> 
-						<div class="bluelobster" <img src="images/lobster2.jpg">> </div>
-						</div>
-					-->	
-					<img src="images/lobster.jpg" class="redlobster" >
-					<img src="images/lobster3.jpg" class="bluelobster" >
-			</div>
-		</div> <!-- END R3 C1 -->
-
+				<div class="col-md-3 no-padding"> <!-- BEG R3 C3 -->
+			
+					<div id="who" class="part">
+						<h2>Mais qui ? </h2>
+								<p>Tu verras bien</p>
+								<p>Pour patienter voici une photo de Homard</p>
+								<p>Bisous</p>
+					</div>
+				</div> <!-- END R3 C3 -->
+		</div> <!-- END ROW 3 -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 		<!-- PART CONTACT -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 		
-		<div class="col-md-3 no-padding"> <!-- BEG R3 C2 -->
+		<div class="row"> <!-- BEG ROW 4 -->
+				<div class="col-md-12 no-padding"> <!-- BEG R4 C1 -->
+
+					<div id="contact" class="part">
+						<h2>Pour nous contacter</h2>
+
+							<!-- Button trigger modal -->
+							<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">Envoyer un message</button>
+
+							<a href="http://www.vertu.com/fr/fr/home" target="_blank">Clique ici, pour un nouveau produit funky</a>
+					</div>
+				</div> <!-- END R4 C1 -->
 		
-			<div id="contact" class="part">
-				<h2>Pour nous contacter</h2>
-					<a href="http://www.vertu.com/fr/fr/home" target="_blank">Clique ici, pour un nouveau produit funky</a>
-
-					<a href="mailto:rouroudotcom@yahoo.fr" id="email">Ou ici pour faire galérer ton Thunderbird</a>
-			</div>
-
-
-		</div> <!-- END R3 C2 -->
-			</div> <!-- END ROW 3 -->
-			</section> <!-- end part who/contact -->
+		</div>			
+			</section> <!-- end part who/contact (first part) -->
 
 
 
@@ -267,12 +290,77 @@
 
 
 
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+		<!-- MODAL -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+
+
+
+			<!-- Modal 1 -->
+			<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="myModalLabel">Rickrolled</h4>
+			      </div>
+			      <div class="modal-body">
+			      	<div class="ricky">
+			      		<!-- RICKY -->
+			        <iframe width="420" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+			        </div>
+			      </div>
+			      <div class="modal-footer">
+			      <!--   <button type="button" class="btn" data-dismiss="modal">#ragequit</a></button> -->
+			        <a href="http://www.nyan.cat/" target="_blank"><button type="button" class="btn">Enough troll</button></a>
+			        <a href="https://www.youtube.com/watch?v=EviFPHvH5K8" target="_blank"><button type="button" class="btn">Rage quit</button></a>
+			        
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+			<!-- Modal 2 -->
+			<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="myModalLabel">Allez viens, rejoins nous !</h4>
+			      </div>
+			      <div class="modal-body">
+						<form>
+						  <div class="form-group">
+						    <label for="exampleInputEmail1">Adresse e-mail</label>
+						    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+						  </div>
+						  <div class="checkbox">
+						    <label>
+						      <input type="checkbox"> Check me out
+						    </label>
+						  </div>
+						</form>
+			       	</div>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn">ENVOYER ET DONNER 1 000€</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+		<!-- SCRIPT -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 
 	<!-- BOOTRAP SCRIPT -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-    	<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.js"></script>
+    	<script src="/path/to/masonry.pkgd.min.js"></script>
+
+    	<script type="text/javascript" src="global.js"></script>
 	
 </body>
 

@@ -20,6 +20,7 @@ header {
 	width: 100%;
 	padding: 1%;
 	height: 30%;
+	z-index: 900;
 }
 
 footer {
@@ -45,17 +46,14 @@ section {
 
 
 /* ------------------------------------------------------------------------ */
-/* IMAGES */
+/* IMAGES & VIDEOS */
 /* ------------------------------------------------------------------------ */
 
 img {
-	height: 10%;
+	height: auto;
 	width: auto;
 }
 
-div img {
-	height: 10%;
-}
 
 .pigeonlogo {
 	height: 200px;
@@ -72,6 +70,13 @@ div img {
 	width: auto;
 	float: right;
 }
+
+.ricky {
+	height: auto;
+	width: 70%;
+
+}
+
 
 
 
@@ -140,18 +145,23 @@ nav li {
 }
 
 
+/* ------------------------------------------------------------------------ */
+/* BUTTONS */
+/* ------------------------------------------------------------------------ */
 
-
-.btn-primary {		/*BUTTONS*/
+.btn-primary {
     color: #FFF;
-    background-color: #428BCA;
-    border-color: #357EBD;
+    background-color: transparent;
+    border-color: white;
     height: 20%;
     width: auto;
+    border-radius: 2%;
 }
 
-
-
+.mainbutton {
+	background-color: transparent;
+	border-color: transparent;
+}
 
 
 /* ------------------------------------------------------------------------ */
@@ -162,6 +172,7 @@ nav li {
 .navbar-default .navbar-brand { /*TITLE NAVBAR*/
     color: white;
     font-family: Lobster;
+    font-size: 150%;
 }
 
 
@@ -177,6 +188,10 @@ nav li {
 .navbar-nav {
     float: none;
     margin: 0px;
+}
+
+.navbar-toggle {
+	background-color: white;
 }
 
 

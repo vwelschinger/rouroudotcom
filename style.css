@@ -296,6 +296,10 @@ div {
 	background-color: black ;
 }
 
+.hidden {
+	display: none;
+}
+
 
 
 /* ------------------------------------------------------------------------ */
@@ -331,8 +335,6 @@ div {
 								/* END OF FILE */
 
 																/*by Victor W.*/
-
-
 
 
 

@@ -170,7 +170,7 @@
 
 
 				<div class="col-md-3 no-padding"> <!-- BEG R2 C1 -->
-					<img src="images/beats.jpg" class="photobeats">
+					<img src="images/tests.jpg" class="photobeats">
 				</div>	
 
 				<div class="col-md-6 no-padding"> <!-- BEG R2 C2 -->
@@ -329,7 +329,7 @@
 			        <h4 class="modal-title" id="myModalLabel">Allez viens, rejoins nous !</h4>
 			      </div>
 			      <div class="modal-body">
-						<form>
+						<form id="mailbox" action="#">
 						  <div class="form-group">
 						    <label for="exampleInputEmail1">Adresse e-mail</label>
 						    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
@@ -340,6 +340,12 @@
 						    </label>
 						  </div>
 						</form>
+						<div id="errormessage" class="hidden">
+							<p>Ooops c'est pas bon, recommencez</p>	
+						</div>
+						<div id="greatsuccess" class="hidden">
+							<p>Bravo, c'est bien</p>	
+						</div>
 			       	</div>
 			      </div>
 			      <div class="modal-footer">
@@ -424,8 +430,6 @@
 	<!-- BOOTRAP SCRIPT -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-    	<script src="/path/to/masonry.pkgd.min.js"></script>
 
     	<script type="text/javascript" src="global.js"></script>
 	

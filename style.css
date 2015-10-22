@@ -71,6 +71,7 @@ img {
 	float: right;
 }
 
+
 .ricky {
 	height: auto;
 	width: 70%;
@@ -115,6 +116,10 @@ p {
 	font-family: Roboto+Condensed, Open+sans, sans-serif;
 	color: white ; 
 	font-size: 150%;
+}
+
+.testservices p {
+	color: black;
 }
 
 
@@ -292,19 +297,6 @@ div {
 }
 
 
-.redlobster {
-  display: none;
-  background: images/lobster.jpg;
-  opacity: 0.8;
-  height: 100;
-}
-
-.bluelobster {
-  background: images/lobster3.jpg;
-  height: 200px;
-  width: 200px;
-  margin: auto;
-}
 
 /* ------------------------------------------------------------------------ */
 /* RESPONSIVE PART */

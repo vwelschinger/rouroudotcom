@@ -49,21 +49,20 @@ section {
 /* ------------------------------------------------------------------------ */
 
 img {
-	border-radius: 50%;
 	height: 10%;
 	width: auto;
 }
 
 div img {
-	border-radius: 50%;
 	height: 10%;
 }
 
 .pigeonlogo {
 	height: 200px;
 	width: auto;
-	margin-top: -1%;
+	margin-top: -0%;
 	border: solid white 5px;
+	border-radius: 50%;
 
 }
 
@@ -83,14 +82,14 @@ div img {
 h1 {
 	font-family: Lobster, sans-serif;
 	text-align: center;
-	font-size: 200%;
+	font-size: 400%;
 }
 
 
 h2 {
 	font-family: Lobster, sans-serif;
 	color: white;
-	font-size: 150%;
+	font-size: 300%;
 }
 
 
@@ -119,8 +118,9 @@ p {
 /* ------------------------------------------------------------------------ */
 
 nav {
-	margin-left: 10px;
+
 	text-align: center;
+	margin-bottom: 
 }
 
 
@@ -140,6 +140,54 @@ nav li {
 }
 
 
+
+
+.btn-primary {		/*BUTTONS*/
+    color: #FFF;
+    background-color: #428BCA;
+    border-color: #357EBD;
+    height: 20%;
+    width: auto;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------ */
+/* NAVBAR */
+/* ------------------------------------------------------------------------ */
+
+
+.navbar-default .navbar-brand { /*TITLE NAVBAR*/
+    color: white;
+    font-family: Lobster;
+}
+
+
+
+.navbar-default {
+    background-color: #6E020C;
+    border-color: transparent;
+    width: 100%;
+    height: auto;
+}
+
+
+.navbar-nav {
+    float: none;
+    margin: 0px;
+}
+
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
 /* ------------------------------------------------------------------------ */
 /* DIV */
 /* ------------------------------------------------------------------------ */
@@ -153,33 +201,33 @@ div {
 /* ------------------------------------------------------------------------ */
 
 #presentation {
-	background-color: #2D0105;
-	width: 45%
+	background-color: #175200;
+	/*swidth: 45%*/
 
 }
 
 #product {
 	background-color: #0D80BA;
-	float: left;
-	width: 55%;
+	/*float: left;
+	width: 55%;*/
 }
 
 #service {
-	background-color: #07293B;
-	float: right;
-	width: 45%;
+	background-color: #236E22;
+/*	float: right;
+	width: 45%;*/
 }
 
-#who {
-	float left;
-	background-color: #2D0105;
-	width: 55%;
+#who {	
+	background-color: #BA3721;
+	/*float left;
+	width: 55%*/;
 }
 
 #contact {
-	float: right;
-	background-color: #7B770F;
-	width: 45%;
+	background-color: #3821BA;
+	/*float: right;
+	width: 45%;*/
 }
 
 
@@ -212,11 +260,20 @@ div {
 	color: white;
 }
 
+.black {
+	background-color: black;
+}
+
+.no-padding {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
 .community {
-	float: right;
+	/*float: right;*/
 	height: auto;
-	width: 55%;
-	background-color: purple ;
+	/*width: 55%;*/
+	background-color: black ;
 }
 
 

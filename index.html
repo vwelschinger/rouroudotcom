@@ -46,23 +46,57 @@
 <!-- 		<div class="contener">  BEG CONTENER 1
  -->		
 
+ 		<!-- BEG NAVBAR BOOTSTRAT -->
+
+
+ 			<nav class="navbar navbar-default navbar-fixed-top">
+ 		 <div class="container">
+ 
+		 		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">Rourou.com</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		      		<li><a href="#presentation"><button type="button" class="btn btn-primary btn-lg">Présentation</button></a></li>
+						<li><a href="#product"><button type="button" class="btn btn-primary btn-lg">Produits</button></a></li>
+						<li><a href="#service"><button type="button" class="btn btn-primary btn-lg">Services</button></a></li>
+						<li><a href="#who"><button type="button" class="btn btn-primary btn-lg">Mais Qui Donc?</button></a></li>
+						<li><a href="#contact"><button type="button" class="btn btn-primary btn-lg">Contact</button></a></li>	
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+		 </div>
+			</nav>
+
+
+		<!-- END NAVBAR BOOTSTRAT -->
+
+
 		<header class="menu">
 			<h1 class="maintittle">Bienvenue sur Rourou.com</h1> 
 					
 			<nav>
-				<ul>
- 					<button type="button" class="btn btn-primary btn-lg">Présentation</button>
- 					<button type="button" class="btn btn-primary btn-lg">Produits</button>
- 					<button type="button" class="btn btn-primary btn-lg">Services</button>
- 					<button type="button" class="btn btn-primary btn-lg">Mais Qui Donc?</button>
- 					<button type="button" class="btn btn-primary btn-lg">Contact</button>
-					<!-- <li><a href="#presentation">Présentation</a></li>
-					<li><a href="#product">Produits</a></li>
-					<li><a href="#service">Services</a></li>
-					<li><a href="#who">Qui est le pigeon?</a></li>
-					<li><a href="#contact">Contact</a></li>	 -->
-				</ul>
-				<img src="images/photopigeon.jpg" class="pigeonlogo img-responsive center-block">
+					<ul>
+						<li><a href="#presentation"><button type="button" class="btn btn-primary btn-lg">Présentation</button></a></li>
+						<li><a href="#product"><button type="button" class="btn btn-primary btn-lg">Produits</button></a></li>
+						<li><a href="#service"><button type="button" class="btn btn-primary btn-lg">Services</button></a></li>
+						<li><a href="#who"><button type="button" class="btn btn-primary btn-lg">Mais Qui Donc?</button></a></li>
+						<li><a href="#contact"><button type="button" class="btn btn-primary btn-lg">Contact</button></a></li>	
+					</ul>
+					<img src="images/photopigeon.jpg" class="pigeonlogo img-responsive center-block">
 
 			</nav>
 					
@@ -72,7 +106,7 @@
 
 <!-- 		</div> END CONTENER 1
  -->
-		<div class="contener"> <!-- BEG CONTENER 2 -->
+		<div class="container-fluid"> <!-- BEG CONTENER 2 -->
 			
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
@@ -88,7 +122,7 @@
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 
 		<div class="row"> <!-- BEG ROW 1 -->
-			<div class="col-md-8"> <!-- BEG R1 C1 -->
+			<div class="col-md-8 no-padding"> <!-- BEG R1 C1 -->
 
 			<div  id="presentation" class="part">	
 				<h2>Vous aimez vous faire plumer ?</h2>	
@@ -101,15 +135,13 @@
 			</div>
 			</div> <!-- END R1 C1 -->
 
-			<div class="community">
-			<div class="col-md-4"> <!-- BEG R1 C2 -->	
+			<div class="col-md-4 black no-padding"> <!-- BEG R1 C2 -->	
 
 						<a href="http//:www.facebook.com/rouroudotcom"><img src="images/facebook.png" class="socialnetwork img-responsive"></a>
 						<a href="http//:www.twitter.com/rouroudotcom"><img src="images/twitter.png" class="socialnetwork img-responsive" ></a>
 						<a href="http//:www.instagram.com/rouroudotcom"><img src="images/instagram.jpg" class="socialnetwork img-responsive" ></a>
 						<a href="http//:www.pinterest.com/rouroudotcom"><img src="images/pinterest.jpg" class="socialnetwork img-responsive" ></a>
-		
-			</div>
+
 			</div> <!-- END R1 C2 -->
 
 		</div> <!-- END ROW 1 -->
@@ -121,22 +153,22 @@
 
 
 			<div class="row"> <!-- BEG ROW 2 -->
-			<div class="col-md-7"> <!-- BEG R2 C1 -->
-			<div id="product" class="part"> 
-				<h2>Le casque Beats by Dre</h2>
-					<img src="images/beats.jpg">
-						<p>Ah ce bon vieux Docteur Dre</p>
-						<p>Le bougre aime bien l'argent, enfin comme tout le Monde je pense.</p>
-						<p>Comment se faire de l'argent quand on est une star du rap mondial ?
-						Faire un nouvel album ? Hum bien trop long et fastidieux voyons !</p>
-						<p>Allons y plutôt pour un casque, branché, de qualité (cf la photo)</p>
-						<p>Et comme on veut de l'argent rapidement, bah on le faire super cher, allez là</p>
-						<p>Prix Public : 424€</p>
-						<p>Si tu veux quand-même l'acheter</p>
-					<a href="http://www.amazon.fr/Beats-Dr-Dre-Casque-Auriculaires/dp/B00GTNMA64/ref=sr_1_2?s=electronics&ie=UTF8&qid=1445267136&sr=1-2&keywords=beats+pro" target="_blank">ici mon pigeon</a>
+				<div class="col-md-7 no-padding"> <!-- BEG R2 C1 -->
+					<div id="product" class="part"> 
+						<h2>Le casque Beats by Dre</h2>
+							<img src="images/beats.jpg">
+								<p>Ah ce bon vieux Docteur Dre</p>
+								<p>Le bougre aime bien l'argent, enfin comme tout le Monde je pense.</p>
+								<p>Comment se faire de l'argent quand on est une star du rap mondial ?
+								Faire un nouvel album ? Hum bien trop long et fastidieux voyons !</p>
+								<p>Allons y plutôt pour un casque, branché, de qualité (cf la photo)</p>
+								<p>Et comme on veut de l'argent rapidement, bah on le faire super cher, allez là</p>
+								<p>Prix Public : 424€</p>
+								<p>Si tu veux quand-même l'acheter</p>
+							<a href="http://www.amazon.fr/Beats-Dr-Dre-Casque-Auriculaires/dp/B00GTNMA64/ref=sr_1_2?s=electronics&ie=UTF8&qid=1445267136&sr=1-2&keywords=beats+pro" target="_blank">ici mon pigeon</a>
 
-			</div>
-			</div> <!-- END R2 C1 -->
+					</div>
+				</div> <!-- END R2 C1 -->
 	
 			
 
@@ -146,7 +178,7 @@
 		<!-- PART SERVICES -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 
-		<div class="col-md-5"> <!-- BEG R2 C2 -->
+		<div class="col-md-5 no-padding"> <!-- BEG R2 C2 -->
 
 		<div id="service" class="part">
 			<h2>La Première dans un train TER</h2>
@@ -161,7 +193,7 @@
 		</div>
 
 
-		</div> <!-- END ROW 2 -->
+			</div> <!-- END ROW 2 -->
 
 
 		</section> <!-- END OF Pres/Prod/Services -->
@@ -176,43 +208,53 @@
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 
 	
-	<section class="secondpart">
+		<section class="secondpart">
 
-
-
+		<div class="row"> <!-- BEG ROW 3 -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 		<!-- PART QUI SOMMES-NOUS? -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 
-		<div id="who" class="part">
-			<h2>Mais qui ? </h2>
-					<p>Tu verras bien</p>
-					<p>Pour patienter voici une photo de Homard</p>
-					<p>Bisous</p>
-				<!--
-					<div class="redlobster" <img src="images/lobster.jpg">> 
-					<div class="bluelobster" <img src="images/lobster2.jpg">> </div>
-					</div>
-				-->	
-				<img src="images/lobster.jpg" class="redlobster" >
-				<img src="images/lobster3.jpg" class="bluelobster" >
-		</div>
-
+		<div class="col-md-9 no-padding"> <!-- BEG R3 C1 -->
+	
+			<div id="who" class="part">
+				<h2>Mais qui ? </h2>
+						<p>Tu verras bien</p>
+						<p>Pour patienter voici une photo de Homard</p>
+						<p>Bisous</p>
+					<!--
+						<div class="redlobster" <img src="images/lobster.jpg">> 
+						<div class="bluelobster" <img src="images/lobster2.jpg">> </div>
+						</div>
+					-->	
+					<img src="images/lobster.jpg" class="redlobster" >
+					<img src="images/lobster3.jpg" class="bluelobster" >
+			</div>
+		</div> <!-- END R3 C1 -->
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 		<!-- PART CONTACT -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
-		<div id="contact" class="part">
-			<h2>Pour nous contacter</h2>
-				<a href="http://www.vertu.com/fr/fr/home" target="_blank">Clique ici, pour un nouveau produit funky</a>
+		
+		<div class="col-md-3 no-padding"> <!-- BEG R3 C2 -->
+		
+			<div id="contact" class="part">
+				<h2>Pour nous contacter</h2>
+					<a href="http://www.vertu.com/fr/fr/home" target="_blank">Clique ici, pour un nouveau produit funky</a>
 
-				<a href="mailto:rouroudotcom@yahoo.fr" id="email">Ou ici pour faire galérer ton Thunderbird</a>
-		</div>
+					<a href="mailto:rouroudotcom@yahoo.fr" id="email">Ou ici pour faire galérer ton Thunderbird</a>
+			</div>
 
 
-	</section> <!-- end part who/contact -->
+		</div> <!-- END R3 C2 -->
+			</div> <!-- END ROW 3 -->
+			</section> <!-- end part who/contact -->
+
+
+
 
 	</div> <!-- end contener 2  -->
+
 
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
@@ -229,6 +271,8 @@
 	<!-- BOOTRAP SCRIPT -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.js"></script>
 	
 </body>
 

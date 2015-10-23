@@ -170,7 +170,7 @@
 
 
 				<div class="col-md-3 no-padding"> <!-- BEG R2 C1 -->
-					<img src="images/tests.jpg" class="photobeats">
+					<img src="images/test.jpg" class="photobeats img-responsive">
 				</div>	
 
 				<div class="col-md-6 no-padding"> <!-- BEG R2 C2 -->
@@ -191,7 +191,7 @@
 				</div> <!-- END R2 C1 -->
 
 				<div class="col-md-3 no-padding"> 	<!-- BEG R2 C3 -->
-					<img src="images/lobster.jpg">
+					<img src="images/lobster.jpg" class="img-responsive">
 				</div>								<!-- END R2 C3 -->
 	
 			</div> <!-- END ROW 2 -->
@@ -220,7 +220,7 @@
 
 
 		<div class="col-md-3 no-padding"> 	<!-- BEG R3 C2 -->
-					<img src="images/ter.jpg">
+					<img src="images/ter.jpg" class="img-responsive">
 		</div>								<!-- END R3 C2 -->
 
 			
@@ -329,28 +329,43 @@
 			        <h4 class="modal-title" id="myModalLabel">Allez viens, rejoins nous !</h4>
 			      </div>
 			      <div class="modal-body">
+
+
+
+
+
 						<form id="mailbox" action="#">
 						  <div class="form-group">
 						    <label for="exampleInputEmail1">Adresse e-mail</label>
-						    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+						    	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="mail">
+						    <label for="exampleInputEmail1">La Vie, la Vraie</label>
+						    	<textarea class="form-control" rows="3" placeholder="Raconte ta vie ici" name="message">
+						   		</textarea>
 						  </div>
 						  <div class="checkbox">
 						    <label>
-						      <input type="checkbox"> Check me out
+						      <input type="checkbox" name="cb"> Vider mon compte bancaire
 						    </label>
 						  </div>
+						  	<div class="modal-footer">
+			        		<button type="submit" class="btn">ENVOYER ET DONNER 1 000€</button>
+			      			</div>
 						</form>
-						<div id="errormessage" class="hidden">
+
+
+
+
+
+						<div id="errormessage" class="hiddenmessage">
 							<p>Ooops c'est pas bon, recommencez</p>	
 						</div>
-						<div id="greatsuccess" class="hidden">
+						<div id="greatsuccess" class="hiddenmessage">
 							<p>Bravo, c'est bien</p>	
 						</div>
+							
 			       	</div>
 			      </div>
-			      <div class="modal-footer">
-			        <button type="button" class="btn">ENVOYER ET DONNER 1 000€</button>
-			      </div>
+			      
 			    </div>
 			  </div>
 			</div>

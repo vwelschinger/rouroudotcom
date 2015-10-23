@@ -157,7 +157,7 @@ nav li {
 .btn-primary {
     color: #FFF;
     background-color: transparent;
-    border-color: white;
+    border-color: transparent;
     height: 20%;
     width: auto;
     border-radius: 2%;
@@ -207,6 +207,13 @@ nav li {
     margin-left: auto;
     width: 100%;
 }
+
+.navbar {
+	position: fixed;
+	margin-top: 7.3%;
+	z-index: 800;
+}
+
 
 /* ------------------------------------------------------------------------ */
 /* DIV */
@@ -296,9 +303,12 @@ div {
 	background-color: black ;
 }
 
-.hidden {
+.hiddenmessage {
 	display: none;
+	color: black;
 }
+
+
 
 
 
